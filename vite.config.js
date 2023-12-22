@@ -9,5 +9,5 @@ export default defineConfig({
   server: {
     host: true,
   },
-  base: "https://yahyakamran.github.io/yahya/",
+  base: "/yahya/",
 });
