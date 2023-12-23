@@ -11,7 +11,7 @@ const SocialLinks = () => {
         />
       </a>
       <a
-        href="https://www.linkedin.com/in/yahya-kamran-36bb9b270/"
+        href="https://www.linkedin.com/in/yahya-kamran-software-engineer-36bb9b270"
         target="_blank"
       >
         <FontAwesomeIcon
