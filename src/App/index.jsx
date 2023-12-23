@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <BrowserRouter>
       <PreloadMedia images={Object.values(media)}>
         <Routes>
-          <Route path="/yahya" Component={App} />
+          <Route path="/yahya/" Component={App} />
         </Routes>
       </PreloadMedia>
     </BrowserRouter>
