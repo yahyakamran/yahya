@@ -33,6 +33,7 @@ import {
   avatar,
   scssIcon,
   dom,
+  ecom,
 } from "../assets";
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -97,6 +98,14 @@ export const navLinks = [
 ];
 
 const projects = [
+  {
+    name: "DemoFurniture",
+    description:
+      "An e-commerce website built with React, SCSS, and Vite combines the power of a dynamic front-end library (React) with efficient styling (SCSS) and a fast build tool (Vite). Leveraging React's component-based architecture, the website delivers a seamless user experience, while SCSS provides a maintainable and modular styling approach.",
+    image: ecom,
+    source_code_link: "https://github.com/yahyakamran/ecom",
+    demo_link: "https://yahyakamran.github.io/ecom/",
+  },
   {
     name: "HomeWork",
     description:

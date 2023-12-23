@@ -23,11 +23,13 @@ import memoryGame from "./projects/memory.jpg";
 import homework from "./projects/homework.jpg";
 import calender from "./projects/calender.png";
 import dom from "./projects/dom.png";
+import ecom from "./projects/ecom.jpg"
 
 // Avatar
 import avatar from "./avatar/avatar.png";
 
 export {
+  ecom,
   dom,
   homework,
   express,
