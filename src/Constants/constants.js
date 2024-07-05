@@ -14,26 +14,28 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 import {
-  express,
-  mongoDB,
-  htmlIcon,
-  cssIcon,
-  jsIcon,
-  reactIcon,
-  gitIcon,
-  githubIcon,
-  eslintIcon,
-  viteIcon,
-  nodeIcon,
-  pawsitivePrototype,
-  calculator,
-  memoryGame,
-  homework,
-  calender,
-  avatar,
-  scssIcon,
-  dom,
-  ecom,
+    express,
+    mongoDB,
+    htmlIcon,
+    cssIcon,
+    jsIcon,
+    reactIcon,
+    gitIcon,
+    githubIcon,
+    eslintIcon,
+    viteIcon,
+    nodeIcon,
+    homework,
+    calender,
+    avatar,
+    scssIcon,
+    dom,
+    takhti,
+    gol,
+    tweply,
+    ecom,
+    golang,
+    sql,
 } from "../assets";
 
 library.add(faX, faBars, faWindowRestore, faBagShopping, faDiceD6);
@@ -107,6 +109,22 @@ const projects = [
     demo_link: "https://yahyakamran.github.io/ecom/",
   },
   {
+    name: "Takhti",
+    description:
+      "Takhti is a realtime board application in which you can create different room. Rooms can be joined by thier id. It is implemented in golang , html and javacript.I used golang built-in libraries and html canvas to implement it.",
+    image: takhti,
+    source_code_link: "https://github.com/yahyakamran/takhti",
+    demo_link: "https://github.com/yahyakamran/takhti/assets/98393743/dc0923d5-77d2-476f-92e7-d1f5e82a1ed5",
+  },
+  {
+    name: "Conway's Game of Life",
+    description:
+      "Conway's game of life is a cellular automaton which is great way to play with arrays , html canvas and computing state based on conditions.I implemented it in html and javascript.",
+    image: gol,
+    source_code_link: "https://github.com/yahyakamran/canva/tree/gol",
+    demo_link: "https://cellularlife.netlify.app/",
+  },
+  {
     name: "HomeWork",
     description:
       "The HomeWork is a web-based platform designed to streamline the submission of programming assignments for college students. This project provides a user-friendly interface for students to upload their coding tasks.",
@@ -128,6 +146,14 @@ const projects = [
       "Welcome to the DOM Manipulator website, an interactive platform showcasing the real-time magic of HTML Document Object Model (DOM) manipulation.This demonstrate how HTML Document Object Model (DOM)is manuplated based on user interaction",
     image: dom,
     source_code_link: "https://github.com/yahyakamran/DOM",
+    demo_link: "https://dommanipulate.netlify.app/",
+  },
+  {
+    name: "Tweply",
+    description:
+      "Tweply  is playlist manager. It is implemented using linked list and array. It uses raylib for graphical demonstration",
+    image: tweply,
+    source_code_link: "https://github.com/yahyakamran/tweply",
     demo_link: "https://dommanipulate.netlify.app/",
   },
 ];
@@ -220,6 +246,20 @@ const skills = [
     icon: express,
     description:
       "Dedicated Express developer with a proven track record of creating and optimizing robust backends. Proficient in handling and enhancing backend systems, I bring efficiency to web applications through my expertise in Express. Passionate about building seamless and high-performing server-side solutions.",
+  },
+  {
+    id: "golang",
+    title: "Golang",
+    icon: golang,
+    description:
+      "I am a seasoned developer with expertise in Golang. With a passion for crafting efficient and scalable backend solutions, I consistently delivers robust applications that elevate user experiences to new heights.",
+  },
+  {
+    id: "sql",
+    title: "SQL",
+    icon: sql,
+    description:
+      "Experienced SQL developer adept at crafting efficient database solutions to meet diverse business needs.",
   },
 ];
 

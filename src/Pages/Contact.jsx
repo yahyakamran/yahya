@@ -31,7 +31,7 @@ const Contact = () => {
         <SocialLinks />
         <div className="bg-grayscale-950 flex justify-center pb-4 text-grayscale-50">
           <span>
-            Made by <em>Yahya Kamran (Yahya)</em>
+            Made by <em>Yahya Kamran (yahyakamran099@gmail.com)</em>
           </span>
         </div>
       </div>
